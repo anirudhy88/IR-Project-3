@@ -156,32 +156,3 @@ public class DaatOr {
 	}
 
 }
-/*
- * //maxDocId = GetMaxElement(intArray);
- * System.out.println("Value of maxDocId is " + maxDocId); int track = 0; for
- * (int i = 0; i < pointerArray.length; i++)
- * System.out.println("The int Array is : " + intArray[i]); for (int i = 1; i <
- * pointerArray.length; i++) {
- * 
- * if (intArray[i - 1] == intArray[i]) { // numberOfComparisions++; track++;
- * System.out.println("Entered ths equals check"); }
- * 
- * } System.out.println("value of track is " + track); //
- * System.out.println("value of pointerArray length is " + //
- * pointerArray.length); if (track == pointerArray.length - 1) cont = true;
- * 
- * if (cont) { System.out.println("Populating resulttttttttttttttttttttttt  " +
- * pointerArray[0]);
- * System.out.println("Populating resulttttttttttttttttttttttt  " +
- * intArray[0]); result.add(postingsListDaatOr[0].get(pointerArray[0]));
- * System.out.println("result is  chek enet" + result); for (int i = 0; i <
- * pointerArray.length; i++) { // if(pointerArray[i] <
- * (postingsListDaatAnd[i].size()-1)) { //
- * System.out.println("Incremented pointerArray["+i+"]"); pointerArray[i] =
- * pointerArray[i] + 1; // } } } else { for (int i = 0; i < pointerArray.length;
- * i++) { System.out.println("value of i is " + i); if (intArray[i] < maxDocId)
- * { System.out.println("Adding as alll are not euql :" + intArray[i]);
- * result.add(intArray[i]); // numberOfComparisions++;
- * System.out.println("intArray[" + i + "] <= maxDocId - true"); pointerArray[i]
- * = pointerArray[i] + 1; } } } }
- */
